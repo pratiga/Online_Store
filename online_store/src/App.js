@@ -1,9 +1,13 @@
 // import './App.css';
 
+import Header from "./Layout/Header";
+import Item from "./Product/Item";
+
 function App() {
   return (
     <div className="App">
-     <h1>React App</h1>
+     <Header />
+     <Item />
     </div>
   );
 }
