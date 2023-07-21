@@ -1,0 +1,127 @@
+.Event-collection {
+    width: 100%;
+    display: block;
+    justify-content: center;
+    margin-left: 2rem;
+  }
+  .title {
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    color: rgb(0, 30, 128);
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .list-event {
+    display: flex;
+    gap: 0.5rem;
+  }
+  img {
+    width: 100%;
+  }
+  .image {
+   
+    align-self: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+  }
+  .details .name {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: rgb(3, 66, 45);
+    line-height: 2px;
+  }
+  .location {
+    color: rgb(194, 75, 75);
+    margin-right: 2rem;
+    padding: 4px;
+    text-transform: capitalize;
+  }
+  .date {
+    color: rgb(196, 87, 87);
+  }
+  .icons {
+    display: flex;
+    justify-content: end;
+    gap: 0.4rem;
+    align-self: center;
+    color: rgb(56, 65, 118);
+  }
+  .col-large-12 {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    width: 100%;
+  }
+
+
+  .containers {
+    position: relative;
+    width: 25rem;
+    height: 40rem;
+    /* background: gray;
+      color: aliceblue; */
+    padding: 0.6rem;
+    box-shadow: 2px 0px 2px 2px rgb(189, 202, 216);
+  }
+  .image_event {
+    width: 100%;
+    height: 15rem;
+    overflow: hidden;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .short-desc {
+    width: 100%;
+    padding: 2px;
+    font-size: 16px;
+    text-align: start;
+    font-weight: 300;
+    text-indent: 2px;
+    margin-top: 1.5rem;
+  }
+  
+  .Ititle{
+    background-color: antiquewhite;
+    color: blueviolet;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    font-weight: 600;
+  }
+  .Icategory{
+     background-color: greenyellow; 
+    color: brown;
+    font-size: 1.4rem;
+    padding: 0.5rem 1.4rem;
+     border-radius: 10%;
+  }
+  .Iprice{
+     background: red; 
+     color: white;
+     padding: 0.5rem 1.4rem;
+     border-radius: 10%;
+  }
+  .info{
+    position: absolute;
+    bottom: 0;
+    color: blue;
+    font-size: 16px;
+
+  }
+  .showbtn{
+    background: gray;
+    padding: 5px 10px;
+    color: aliceblue;
+    cursor: pointer;
+    margin: 2px;
+    border-radius: 10%;
+  }
