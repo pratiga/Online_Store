@@ -1,9 +1,7 @@
 .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+   position: -webkit-sticky;
     height: 5rem;
+    width: 100%;
     background-color: #8a2b06;
     color: white;
     display: flex;
@@ -27,3 +25,18 @@
     object-fit: cover;
     transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
   }
+  .list{
+    display: flex;
+  }
+  .center-head{
+    display: flex;
+  }
+  .menu{
+    font-size: 2rem;
+    color: rgb(227, 216, 216);
+    cursor: pointer;
+    text-transform: capitalize;
+    text-decoration: none !important;
+
+  }
+ 

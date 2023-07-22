@@ -23,7 +23,7 @@ const ItemDetails = () => {
       content = (
         <div className="item">
           <div className="item-image">
-            <img src={item.image} alt="images" />
+            <img src={item.image} alt="images" height={40}/>
           </div>
           
           <div className="row-1">
