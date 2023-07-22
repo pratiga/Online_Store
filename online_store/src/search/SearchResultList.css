@@ -1,0 +1,7 @@
+.results-list{
+    position: absolute;
+    z-index: 9999;
+    background: white;
+    color: black;
+    padding: 0.5rem;
+}
